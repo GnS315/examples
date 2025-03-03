@@ -1,8 +1,10 @@
+import React from 'react';
+import SortableExample from './components/Sortable'
 
 const App = () => {
   return (
     <div>
-      {'qwe'}
+      <SortableExample />
     </div>
   );
 }
