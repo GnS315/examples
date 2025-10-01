@@ -20,7 +20,6 @@ const WebWorkers = () => {
     worker.postMessage('start')
   }
 
-
   return (
     <div style={{padding: 10}}>
       <hr />
