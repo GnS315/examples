@@ -36,7 +36,6 @@ const RotateSquare = () => {
   const fasterClickHandler = () => {
     if (animation) {
       animation.playbackRate *= 1.5
-      console.log(animation)
       if (animation.playbackRate > 20) {
         alert('Не гоняй')
         animation.playbackRate = 1
